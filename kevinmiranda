@@ -1,0 +1,18 @@
+#Start code here
+#declaracion de variables # your own code
+S = "s"
+peso = 0.053
+euro = 18.94
+dolar = 1609.34
+#entrada de datos/declaracion de variables  # your own code
+pesosEuros = float(input("ingrese los Pesos  a convertir a Euros :  "))
+eurosPesos = float(input("ingrese los Euros  a convertir a Pesos :  "))
+euroDolar = float(input("ingrese los euros  a convertir a dolares :  "))
+#operaciones # your own code
+pesosEuros*=peso # your own code
+eurosPesos*=euro # your own code
+euroDolar*euro # your own code
+#salida de datos # your own code
+print("la conversion de tus pesos a euros es: ", pesosEuros)
+print("la conversion de tus euros a pesos  es: ", eurosPesos)
+print("la conversion de tus euros a dolar es: ", euroDolar)
